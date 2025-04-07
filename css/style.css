@@ -1,13 +1,23 @@
+/* general formating */
 * {
   box-sizing: border-box;
 }
 
 .wrapper {
   max-width: 1200px;
+  margin: auto;
+
 }
 
 img {
   width: 100%;
+}
+
+header nav a:link {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2em;
 }
 
 body {
@@ -28,6 +38,7 @@ body {
 footer {
   background-color: #000;
   color: #fff;
+  text-align: center;
 }
 
 h1 {
@@ -42,4 +53,43 @@ h3 {
   font-size: 1.266rem;
 }
 
+/* mobile specific formating */
 
+header ul {
+  list-style: none;
+}
+
+header ul {
+  display: flex;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .wrapper nav li {
+  display: inline-block;
+  padding-left: 1em;
+}
+
+header .wrapper img {
+  width: auto;
+}
+
+
+
+
+
+/* header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+header ul li {
+  padding-left: 1em;
+} */
